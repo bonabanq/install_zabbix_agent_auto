@@ -11,3 +11,9 @@ Invoke-WebRequest "https://raw.githubusercontent.com/bonabanq/install_zabbix_age
   ```
   powershell -ExecutionPolicy Bypass -File install_zabbix.ps1
   ```
+
+다운로드+설치 올인원
+```
+powershell -ExecutionPolicy Bypass -Command "[Net.ServicePointManager]::SecurityProtocol=[Net.SecurityProtocolType]::Tls12; Invoke-WebRequest 'https://raw.githubusercontent.com/bonabanq/install_zabbix_agent_auto/main/install_zabbix_agent.ps1' -OutFile install_zabbix_agent.ps1; powershell -ExecutionPolicy Bypass -File install_zabbix_agent.ps1"
+
+```
