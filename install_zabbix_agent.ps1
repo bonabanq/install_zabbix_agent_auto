@@ -53,8 +53,6 @@ UserParameter=top10.mem,powershell -NoProfile -NonInteractive -ExecutionPolicy B
     Write-Host "`n[zabbix_agentd.conf - Last 6 lines]"
     Get-Content -Path $confPath | Select-Object -Last 6
 
-    Write-Output $hostname
-
     # ---- Final step: Permanently delete the MSI file ----
     Write-Host "==[7/7] Delete MSI file permanently"
     if (Test-Path $msiPath) {
@@ -63,6 +61,11 @@ UserParameter=top10.mem,powershell -NoProfile -NonInteractive -ExecutionPolicy B
     } else {
         Write-Host "MSI file not found: $msiPath"
     }
+
+    # ---- Final verification ----
+    Write-Host "`n[Final Verification] sc.exe query Zabbix Agent"
+    sc.exe query "Zabbix Agent"
+
 }
 catch {
     Write-Error $_.Exception.Message
