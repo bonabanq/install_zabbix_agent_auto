@@ -82,20 +82,16 @@ cp -a "$CONF" "$CONF_BAK"
 echo "[INFO] Backed up conf to $CONF_BAK"
 
 ##########################################
-# Helper: set or replace KEY=VALUE lines #
+# Helper: enforce single KEY=VALUE line  #
 ##########################################
 set_or_replace_kv () {
   local key="$1"
   local value="$2"
   local file="$3"
 
-  if grep -qE "^[#[:space:]]*${key}=" "$file"; then
-    # Replace first active or commented occurrence to ensure single final line
-    sed -i -E "0,/^[#[:space:]]*${key}=.*/s//${key}=${value}/" "$file"
-  else
-    # Append if not present
-    echo "${key}=${value}" >> "$file"
-  fi
+  # Remove ALL existing occurrences (active or commented), then append exactly one
+  sed -i -E "/^[#[:space:]]*${key}=.*/d" "$file"
+  echo "${key}=${value}" >> "$file"
 }
 
 #################################
