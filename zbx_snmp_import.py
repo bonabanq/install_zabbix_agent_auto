@@ -134,7 +134,7 @@ def upsert_host(url, token, row, insecure=False, dry_run=False):
     snmp_comm = row["SNMPWALK"].strip()
 
     if dry_run:
-        print(f"[DRY-RUN] host={host_name}, visible_name={visible_name}, group={group_name}, ip={ip_addr}, {$SNMP_COMMUNITY}={snmp_comm}")
+        print(f"[DRY-RUN] host={host_name}, visible_name={visible_name}, group={group_name}, ip={ip_addr}, {{$SNMP_COMMUNITY}}={snmp_comm}")
         return
 
     groupid = get_or_create_hostgroup(url, token, group_name, insecure=insecure)
@@ -147,7 +147,9 @@ def upsert_host(url, token, row, insecure=False, dry_run=False):
             "name": visible_name,
             "groups": [{"groupid": groupid}],
             "interfaces": [build_snmp_interface(ip_addr)],
-            "macros": [{"macro": "{$SNMP_COMMUNITY}", "value": snmp_comm}]
+            "macros": [{"macro": "{$SNMP_COMMUNITY}", "value": snmp_comm}],
+            "inventory_mode": 1,        # << 인벤토리 Automatic
+            "inventory": {}   
         }
         created = rpc(url, token, "host.create", params, insecure=insecure)
         hostid = created["hostids"][0]
@@ -158,7 +160,8 @@ def upsert_host(url, token, row, insecure=False, dry_run=False):
         rpc(url, token, "host.update", {
             "hostid": hostid,
             "name": visible_name,
-            "groups": [{"groupid": groupid}]
+            "groups": [{"groupid": groupid}],
+            "inventory_mode": 1
         }, insecure=insecure)
         # Upsert SNMP interface
         host_update_interfaces(url, token, hostid, ip_addr, insecure=insecure)
