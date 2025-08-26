@@ -1,0 +1,136 @@
+﻿NO.,분류,계정,리전,서비스명,이름,환경,핵심/중요/일반,운영 체제,크기,개인 IP 주소,공용 IP 주소,디스크,WEB/WAS/DB/ETC
+1,AWS,itopsprod,ap-northeast-2,mes,mes-prod-ec2-instance-was-2c,운영,핵심,Windows Server,r5.large,172.29.17.148,,60,WEB/WAS
+2,AWS,itopsprod,ap-northeast-2,plm,plm-prod-ec2-instance-3dspace-index-2c,운영,중요,Linux,r5a.4xlarge,172.29.129.116,,550,APP
+3,AWS,itopsprod,ap-northeast-2,plm,plm-prod-ec2-instance-3dspace-non-cas-2c,운영,중요,Linux,r5a.xlarge,172.29.129.77,,300,APP
+4,AWS,itopsprod,ap-northeast-2,plm,plm-prod-ec2-instance-3dswym-2c,운영,중요,Linux,r5a.xlarge,172.29.129.155,,300,WEB/WAS
+5,AWS,itopsprod,ap-northeast-2,plm,plm-prod-ec2-instance-auto-vue-2c,운영,중요,Windows Server,g4dn.xlarge,172.29.129.65,,500,APP
+6,AWS,itopsprod,ap-northeast-2,plm,plm-prod-ec2-instance-3dspace-cas-2c,운영,중요,Linux,r5a.2xlarge,172.29.129.222,,300,APP
+7,AWS,itopsprod,ap-northeast-2,ehs,ehs-prod-ec2-instance-was-2c,운영,중요,Linux,r5a.large,172.29.141.149,,100,WEB/WAS
+8,AWS,itopsprod,ap-northeast-2,mes,mes-prod-ec2-instance-was-2a,운영,중요,Windows Server,r5.large,172.29.16.232,,160,WEB/WAS
+9,AWS,itopsprod,ap-northeast-2,plm,plm-prod-ec2-instance-3dspace-cas-2a,운영,중요,Linux,r5a.2xlarge,172.29.128.74,,300,APP
+10,AWS,itopsprod,ap-northeast-2,plm,plm-prod-ec2-instance-3dswym-2a,운영,중요,Linux,r5a.xlarge,172.29.128.252,,300,WEB/WAS
+11,AWS,itopsprod,ap-northeast-2,plm,plm-prod-ec2-instance-3dswym-index-2a,운영,중요,Linux,r5a.xlarge,172.29.128.176,,150,APP
+12,AWS,itopsprod,ap-northeast-2,plm,plm-prod-ec2-instance-3dspace-non-cas-2a,운영,중요,Linux,r5a.xlarge,172.29.128.237,,300,APP
+13,AWS,itopsprod,ap-northeast-2,plm,plm-prod-ec2-instance-3dspace-index-2a,운영,중요,Linux,r5a.4xlarge,172.29.128.221,,550,APP
+14,AWS,itopsprod,ap-northeast-2,ehs,ehs-prod-ec2-instance-oz-report-2a,운영,일반,Linux,r5a.large,172.29.140.210,,200,APP
+15,AWS,itopsprod,ap-northeast-2,ehs,ehs-prod-ec2-instance-was-2a,운영,일반,Linux,r5a.large,172.29.140.29,,100,WEB/WAS
+16,AWS,itopsprod,ap-northeast-2,kess,kess-prod-ec2-instance-api-server-2a,운영,일반,Linux,t3.small,172.29.20.142,,20,APP
+17,AWS,itopsprod,ap-northeast-2,cic,cic-prod-ec2-instance-service-was-server-2a,운영,핵심,Linux,m5.xlarge,172.29.35.16,,500,WEB/WAS
+18,AWS,itopsprod,ap-northeast-2,cic,cic-prod-ec2-instance-consult-was-server-2a,운영,핵심,Linux,m5.xlarge,172.29.34.189,,500,WEB/WAS
+19,AWS,itopsprod,ap-northeast-2,kvrs,kvrs-prod-ec2-instance-was-2a,운영,일반,Linux,m5a.large,172.29.22.52,,300,WEB/WAS
+20,AWS,itopsprod,ap-northeast-2,itsm,itsm-prod-ec2-instance-db,운영,중요,Linux,t3.large,172.29.118.95,,500,DB
+21,AWS,itopsprod,ap-northeast-2,itsm,itsm-prod-ec2-instance-web,운영,중요,Linux,m5.large,172.29.118.217,,500,WEB/WAS
+22,AWS,itopsprod,ap-northeast-2,srm,srm-prod-ec2-instance-was-2a,운영,중요,Linux,m5.large,172.29.52.60,,400,WEB/WAS
+23,AWS,itopsprod,ap-northeast-2,srm,srm-prod-ec2-instance-oz-report-2a,운영,중요,Linux,m6g.large,172.29.52.224,,200,APP
+24,AWS,itopsprod,ap-northeast-2,cic,cic-prod-ec2-instance-consult-was-server-2c,운영,핵심,Linux,m5.xlarge,172.29.36.206,,500,WEB/WAS
+25,AWS,itopsprod,ap-northeast-2,cic,cic-prod-ec2-instance-service-was-server-2c,운영,핵심,Linux,m5.xlarge,172.29.37.217,,500,WEB/WAS
+26,AWS,itopsprod,ap-northeast-2,srm,srm-prod-ec2-instance-was-2c,운영,중요,Linux,m5.large,172.29.53.208,,400,WEB/WAS
+27,AWS,itopsprod,ap-northeast-2,srm,srm-prod-ec2-instance-legacy-2a,운영,중요,Linux,t3a.nano,172.29.52.144,,20,WEB
+28,AWS,itopsprod,ap-northeast-2,skm,skm-prod-ec2-instance-batch,운영,중요,Linux,m5.xlarge,172.29.169.120,,100,APP
+29,AWS,itopsprod,ap-northeast-2,zabbix,zabbix-mon-infra,운영,중요,Linux,t3.2xlarge,172.29.3.116,13.209.56.166,1000,WEB/WAS/DB
+30,AWS,itopsprod,ap-northeast-2,eai,eai-prod-ec2-instance-app-2c,운영,핵심,Linux,c6i.2xlarge,172.29.190.22,,288,WEB/WAS
+31,AWS,itopsprod,ap-northeast-2,equip,msvc-prod-ec2-instance-equip-check-2a,운영,중요,Windows Server,m6i.2xlarge,172.29.16.111,,150,WEB/WAS
+32,AWS,itopsprod,ap-northeast-2,eai,eai-prod-ec2-instance-app-2a,운영,핵심,Linux,c6i.2xlarge,172.29.190.8,,288,APP
+33,AWS,itopsprod,ap-northeast-2,eai,eai-prod-ec2-instance-flexgw-2a,운영,핵심,Linux,c6i.xlarge,172.29.190.9,,160,APP
+34,AWS,itopsprod,ap-northeast-2,plm,plm-prod-ec2-instance-thumbnail-2a,운영,중요,Windows Server,g4dn.xlarge,172.29.128.91,,1300,APP
+35,AWS,itopsprod,ap-northeast-2,plm,plm-prod-ec2-instance-interface-2a,운영,중요,Windows Server,m6i.2xlarge,172.29.128.10,,1000,APP
+36,AWS,itopsdevelop,ap-northeast-2,plm,plm-qa-ec2-instance-3dswym-2c,검증,일반,Linux,r5a.large,172.28.129.245,,100,WEB/WAS
+37,AWS,itopsdevelop,ap-northeast-2,plm,plm-qa-ec2-instance-3dspace-cas-2c,검증,일반,Linux,r5a.xlarge,172.28.129.173,,100,APP
+38,AWS,itopsdevelop,ap-northeast-2,plm,plm-qa-ec2-instance-3dspace-non-cas-2c,검증,일반,Linux,r5a.large,172.28.129.85,,100,APP
+39,AWS,itopsdevelop,ap-northeast-2,plm,plm-qa-ec2-instance-3dspace-index-2c,검증,일반,Linux,r5a.xlarge,172.28.129.145,,350,APP
+40,AWS,itopsdevelop,ap-northeast-2,plm,plm-qa-ec2-instance-auto_vue-2c,검증,일반,Windows Server,g4dn.xlarge,172.28.129.200,,200,APP
+41,AWS,itopsdevelop,ap-northeast-2,mes,mes-dev-ec2-instance-was-2c,개발,일반,Windows Server,m5.large,172.28.17.239,,60,WEB/WAS
+42,AWS,itopsdevelop,ap-northeast-2,plm,plm-qa-ec2-instance-3dswym-2a,검증,일반,Linux,r5a.xlarge,172.28.128.48,,110,WEB/WAS
+43,AWS,itopsdevelop,ap-northeast-2,plm,plm-qa-ec2-instance-3dswym-index-2a,검증,일반,Linux,r5a.large,172.28.128.8,,150,APP
+44,AWS,itopsdevelop,ap-northeast-2,plm,plm-qa-ec2-instance-3dspace-index-2a,검증,일반,Linux,r5a.large,172.28.128.6,,350,APP
+45,AWS,itopsdevelop,ap-northeast-2,plm,plm-qa-ec2-instance-3dspace-cas-2a,검증,일반,Linux,r5a.xlarge,172.28.128.50,,100,APP
+46,AWS,itopsdevelop,ap-northeast-2,plm,plm-qa-ec2-instance-3dspace-non-cas-2a,검증,일반,Linux,r5a.large,172.28.128.99,,120,APP
+47,AWS,itopsdevelop,ap-northeast-2,mes,mes-dev-ec2-instance-was-2a,개발,일반,Windows Server,m5.large,172.28.16.195,,160,WEB/WAS
+48,AWS,itopsdevelop,ap-northeast-2,homepage,kdnavien-dev-ec2-instance-svr-2a,개발,일반,Windows Server,m5.large,172.28.18.5,3.39.186.99,550,WEB/WAS
+49,AWS,itopsdevelop,ap-northeast-2,ehs,ehs-dev-ec2-instance-oz-report-2a,개발,일반,Linux,m5a.large,172.28.140.210,,150,APP
+50,AWS,itopsdevelop,ap-northeast-2,ehs,ehs-dev-ec2-instance-was-2a,개발,일반,Linux,m5a.large,172.28.140.29,,70,WEB/WAS
+51,AWS,itopsdevelop,ap-northeast-2,kess,kess-dev-ec2-instance-api-server,개발,일반,Linux,t2.micro,172.28.20.124,,10,APP
+52,AWS,itopsdevelop,ap-northeast-2,kvrs,kvrs-dev-ec2-instance-was-2a,개발,일반,Linux,m5a.large,172.28.22.75,,300,WEB/WAS
+53,AWS,itopsdevelop,ap-northeast-2,cic,cic-dev-ec2-instance-consult-was-server-2a,개발,일반,Linux,m5.large,172.28.34.14,,400,WEB/WAS
+54,AWS,itopsdevelop,ap-northeast-2,cic,cic-dev-ec2-instance-service-install-was-server-2a,개발,일반,Linux,m5.large,172.28.35.25,,400,WEB/WAS
+55,AWS,itopsdevelop,ap-northeast-2,itsm,itsm-dev-ec2-instance-web,개발,일반,Linux,c5.xlarge,172.28.118.20,,500,WEB/WAS
+56,AWS,itopsdevelop,ap-northeast-2,itsm,itsm-dev-ec2-instance-db,개발,일반,Linux,t3.large,172.28.118.108,,500,DB
+57,AWS,itopsdevelop,ap-northeast-2,srm,srm-dev-ec2-instance-was-2a,개발,일반,Linux,m5.xlarge,172.28.52.139,,400,WEB/WAS
+58,AWS,itopsdevelop,ap-northeast-2,srm,srm-dev-ec2-instance-oz-report-2a,개발,일반,Linux,m6g.medium,172.28.52.11,,200,APP
+59,AWS,itopsdevelop,ap-northeast-2,wms,wms-dev-ec2-instance-woongjin,개발,일반,Linux,t3.medium,172.28.2.71,,50,APP
+60,AWS,itopsdevelop,ap-northeast-2,skm,skm-dev-ec2-instance-batch,개발,일반,Linux,t3.medium,172.28.169.179,,100,APP
+61,AWS,itopsdevelop,ap-northeast-2,nias,nias-dev-ec2-asg-nias,개발,일반,Linux,t3.small,172.28.180.20,,8,WEB/WAS
+62,AWS,itopsdevelop,ap-northeast-2,nias,nias-dev-ec2-instance-admin-page-2a,개발,일반,Linux,t3.small,172.28.180.8,,30,WEB/WAS
+63,AWS,itopsdevelop,ap-northeast-2,glcicuz,glcicuz-dev-ec2-instance-was-2a,개발,일반,Linux,t3.medium,172.28.35.78,,30,WEB/WAS
+64,AWS,itopsdevelop,ap-northeast-2,mes,mes-dev-ec2-instance-db-2a,개발,일반,Windows Server,r6i.xlarge,172.28.16.158,,2151,DB
+65,AWS,itopsdevelop,ap-northeast-2,plm,AWS Application Migration Service Replication Server,개발,일반,Windows Server,c6i.xlarge,172.28.128.60,,2243,APP
+66,AWS,itopsdevelop,ap-northeast-2,plm,plm-qa-ec2-instance-interface-2a,검증,일반,Windows Server,m6i.2xlarge,172.28.128.107,,600,APP
+67,AWS,itopsdevelop,ap-northeast-2,plm,plm-dev-ec2-instance-2a,개발,일반,Linux,m6i.2xlarge,172.28.128.94,,2235,WEB/WAS/DB
+68,AWS,itopspg,ap-northeast-2,,itopspg-lambda-linux-ec2,테스트,일반,Linux,t2.micro,172.27.1.6,,0,APP
+69,AWS,itopspg,ap-northeast-2,,redis-test,테스트,일반,Linux,t2.micro,172.27.1.38,,0,APP
+70,AWS,itopspg,ap-northeast-2,,mobile-redis,테스트,일반,Linux,t2.micro,172.27.1.35,,8,APP
+71,AWS,itopspg,ap-northeast-2,nias,nias-stage-ec2-asg-nias,검증,일반,Linux,t3.small,172.27.180.51,,8,WEB/WAS
+72,AWS,itopspg,ap-northeast-2,nias,nias-stage-ec2-instance-admin-page-2a,검증,일반,Linux,t3.small,172.27.180.34,,30,WEB/WAS
+73,AWS,kdone,ap-northeast-2,gps,hs-svr GPS,운영,중요,Linux,r5.xlarge,10.39.0.136,15.165.21.252,300,WEB/WAS/DB
+74,AWS,kdone,ap-northeast-2,homepage,KD DB,운영,중요,Windows Server,c5.xlarge,10.40.0.147,54.180.23.5,600,DB
+75,AWS,kdone,ap-northeast-2,homepage,KD HomePage ETC,운영,중요,Windows Server,c5.xlarge,10.40.0.190,13.124.177.86,200,WEB/WAS
+76,AWS,kdone,ap-northeast-2,mobile,Mobile-1,운영,중요,Linux,c5.2xlarge,10.38.0.171,3.34.208.7,100,WEB/WAS/DB
+77,AWS,kdone,ap-northeast-2,api,API-Server,운영,중요,Linux,c5.2xlarge,10.38.0.123,54.180.194.5,500,APP
+78,AWS,kdone,ap-northeast-2,ips,web-ips-mgt,운영,중요,Windows Server,m5.large,10.40.0.15,13.209.147.117,300,WEB/WAS/DB
+79,AWS,kdone,ap-northeast-2,viewARS,ViewARS,운영,중요,Linux,m5.4xlarge,10.138.2.153,3.38.134.173,500,WEB/WAS/DB
+80,AWS,kdone,ap-northeast-2,homepage,KD Navien,운영,중요,Windows Server,m5.xlarge,10.40.1.233,13.125.134.2,600,WEB/WAS
+81,AWS,kdone,ap-northeast-2,mobile,Mobile-2,운영,중요,Linux,c5.2xlarge,10.38.1.127,52.79.129.1,100,WEB/WAS
+82,AWS,kdone,ap-northeast-2,gqms,GQMS-PROD,운영,중요,Linux,t3.xlarge,10.138.14.227,,500,WEB/WAS/DB
+83,AWS,kdone,ap-northeast-2,gqms,KD Navien OLD,운영,중요,Windows Server,c5.xlarge,10.40.0.57,15.164.255.142,220,WEB/WAS
+84,AWS,kdone,ap-northeast-2,certification,common-certification,운영,중요,Linux,t3.large,10.138.4.32,15.164.75.133,1024,APP
+85,AWS,kdone,ap-northeast-2,gqms,GQMS-DEV,개발,일반,Linux,t3.xlarge,10.138.15.224,,500,WEB/WAS
+86,AWS,kdone,ap-northeast-2,homepage,KD Talent Development,운영,중요,Windows Server,m5.large,10.40.0.77,43.202.161.244,50,WEB/WAS
+87,AWS,kdone,ap-northeast-2,mobile,Mobile-DEV,개발,일반,Linux,c5.2xlarge,10.38.2.96,43.203.3.227,100,WEB/WAS
+88,AWS,kdwms,ap-northeast-2,wms,KD-WMS-DB-ACTIVE,운영,핵심,Windows Server,m5.4xlarge,10.50.38.85,,4250,DB
+89,AWS,kdwms,ap-northeast-2,wms,KD-WMS-WAS-A,운영,핵심,Windows Server,r5.2xlarge,10.50.25.244,,250,WEB/WAS
+90,AWS,kdwms,ap-northeast-2,wms,KD-WMS-DB-COLLECT,운영,핵심,Linux,m5.xlarge,10.50.39.26,,500,WEB/WAS/DB
+91,AWS,kdwms,ap-northeast-2,wms,KD-WMS-QA (STAGE),검증,핵심,Windows Server,c5.2xlarge,10.50.39.191,,1400,WEB/WAS
+92,AWS,kdwms,ap-northeast-2,wms,KD-WMS-DB-STANDBY,운영,핵심,Windows Server,r5.xlarge,10.50.43.223,,2200,DB
+93,AWS,kdwms,ap-northeast-2,wms,KD-WMS-WAS-C,운영,핵심,Windows Server,r5.2xlarge,10.50.159.192,,200,WEB/WAS
+94,AWS,kdwms,ap-northeast-2,wms,KD-WMS-DEV,개발,일반,Windows Server,m5.large,10.50.45.60,,200,WEB/WAS
+95,AWS,kdwrms,ap-northeast-2,wrms,Prd-KDN-Mapi-Was2,운영,핵심,Linux,m5.large,31.147.31.10,,100,WEB/WAS
+96,AWS,kdwrms,ap-northeast-2,wrms,Prd-KDN-Batch,운영,핵심,Linux,c5.large,31.147.31.12,,100,APP
+97,AWS,kdwrms,ap-northeast-2,wrms,Dev-KDN-Was,개발,일반,Linux,c5.xlarge,31.147.20.10,,100,WEB/WAS
+98,AWS,kdwrms,ap-northeast-2,wrms,Prd-KDN-DSM,운영,핵심,Linux,m5.large,31.147.10.10,52.78.13.80,100,WEB/WAS/DB
+99,AWS,kdwrms,ap-northeast-2,wrms,Prd-KDN-Mapi-Was1,운영,핵심,Linux,m5.large,31.147.30.10,,100,WEB/WAS
+100,AWS,kdwrms,ap-northeast-2,wrms,Prd-KDN-Report,운영,핵심,Linux,c5.xlarge,31.147.30.12,,100,APP
+101,AWS,kdwrms,ap-northeast-2,wrms,Prd-KDN-Bo-Was2,운영,핵심,Linux,c5.xlarge,31.147.31.11,,100,WEB/WAS
+102,AWS,kdwrms,ap-northeast-2,wrms,Prd-KDN-Bo-Was1,운영,핵심,Linux,c5.xlarge,31.147.30.11,,100,WEB/WAS
+103,AWS,kdnias,ap-northeast-2,nias,nias.prod.ec2.asg-nias-b,운영,핵심,Linux,m5.large,172.26.6.181,,200,WEB/WAS
+104,AWS,kdnias,ap-northeast-2,nias,nias.prod.ec2.instance.admin-page.az2a,운영,핵심,Linux,m5.large,172.26.5.66,,200,WEB/WAS
+105,AWS,kdnias,ap-northeast-2,nias,nias.prod.ec2.asg-nias-a,운영,핵심,Linux,m5.large,172.26.5.143,,200,WEB/WAS
+106,AWS,kdnias,ap-northeast-2,dbec,dbec-prod-ec2-instance-eg-standby-2c,운영,핵심,Linux,m6i.xlarge,172.26.9.95,,100,APP
+107,AWS,kdnias,ap-northeast-2,dbec,dbec-prod-ec2-instance-console-2a,운영,핵심,Windows Server,t3.medium,172.26.9.17,,100,WEB/WAS
+108,AWS,kdnias,ap-northeast-2,dbec,dbec-prod-ec2-instance-eg-active-2a,운영,핵심,Linux,m6i.xlarge,172.26.9.57,,100,APP
+109,AWS,kdnias,ap-northeast-2,dbec,dbec-prod-ec2-instance-security-2a,운영,핵심,Linux,t3.medium,172.26.9.5,,100,APP
+110,AWS,navienhouse,ap-northeast-2,navienhouse,navien-server-1,운영,핵심,Windows Server,m5.2xlarge,10.37.10.141,,100,WEB/WAS
+111,AWS,navienhouse,ap-northeast-2,navienhouse,navien-db,운영,핵심,Windows Server,m5.2xlarge,10.37.10.9,,550,DB
+112,AWS,navienhouse,ap-northeast-2,navienhouse,navien-server-2,운영,핵심,Windows Server,r5.xlarge,10.37.11.152,,100,WEB/WAS
+113,AWS,navienhouse,ap-northeast-2,navienhouse,navien-server-3,운영,핵심,Windows Server,m5.2xlarge,10.37.11.74,,100,WEB/WAS
+114,AWS,navienhouse,ap-northeast-2,navienhouse,navien-server-4,운영,핵심,Windows Server,m5.2xlarge,10.37.11.118,,100,WEB/WAS
+115,AWS,navienhouse,ap-northeast-2,navienhouse,navien-server-5,운영,핵심,Windows Server,r5.xlarge,10.37.11.115,,100,WEB/WAS
+116,AWS,navienhouse,ap-northeast-2,navienhouse,navien-server-6,운영,핵심,Windows Server,r5.xlarge,10.37.11.98,,100,WEB/WAS
+117,AWS,navienhouse,ap-northeast-2,navienhouse,navien-server-7,운영,핵심,Windows Server,r5.xlarge,10.37.11.102,,100,WEB/WAS
+118,AWS,navienhouse,ap-northeast-2,navienhouse,navien-ai-triton,운영,핵심,Linux,g4dn.xlarge,10.37.10.215,,100,APP
+119,AWS,navienhousedev,ap-northeast-2,navienhouse,navien-dev-server,개발,일반,Windows Server,c5.large,10.36.0.22,,100,WEB/WAS
+120,AWS,itcallprod,ap-northeast-2,ipcc,ipcc-prod-ec2-messenger,운영,핵심,Linux,m5.xlarge,172.25.16.170,,1000,APP
+121,AWS,itcallprod,ap-northeast-2,kcpm,kcpm-prod-ec2-instance-was,운영,핵심,Linux,m5.xlarge,172.25.16.120,,500,WEB/WAS
+122,AWS,itcallprod,ap-northeast-2,ipcc,ipcc-prod-ec2-webwas-a,운영,핵심,Linux,c5.2xlarge,172.25.16.204,,500,WEB/WAS
+123,AWS,itcallprod,ap-northeast-2,ipcc,ipcc-prod-ec2-daemon,운영,핵심,Linux,m5.large,172.25.16.44,,300,APP
+124,AWS,itcallprod,ap-northeast-2,kcpm,kcpm-prod-ec2-instance-db,운영,핵심,Linux,m5.large,172.25.16.69,,200,DB
+125,AWS,itcallprod,ap-northeast-2,msghub,msghub-prod-ec2-instance,운영,핵심,Linux,m5.xlarge,172.25.16.90,54.180.214.176,50,WEB/WAS
+126,AWS,itcallprod,ap-northeast-2,ipcc,ipcc-prod-VARS,운영,핵심,Linux,m5.xlarge,172.25.0.136,43.203.100.232,500,APP
+127,AWS,itcallprod,ap-northeast-2,ipcc,ipcc-prod-ec2-webwas-c,운영,핵심,Linux,c5.2xlarge,172.25.17.171,,500,WEB/WAS
+128,AWS,itcalldev,ap-northeast-2,ipcc,ipcc-dev-messenger,개발,일반,Linux,m5.large,172.24.16.84,,250,APP
+129,AWS,itcalldev,ap-northeast-2,ipcc,ipcc-dev-webwas-a,개발,일반,Linux,c5.xlarge,172.24.16.46,,200,WEB/WAS
+130,AWS,itcalldev,ap-northeast-2,msghub,msghub-dev-ec2-instance,개발,일반,Linux,m5.large,172.24.110.19,15.165.124.244,50,APP
+131,AWS,itcalldev,ap-northeast-2,ipcc,ipcc-dev-VARS,개발,일반,Linux,m5.large,172.24.0.146,13.124.25.36,200,APP
+132,AWS,itcalldev,ap-northeast-2,ipcc,ipcc-dev-webwas-c,개발,일반,Linux,c5.xlarge,172.24.17.206,,200,WEB/WAS
+133,AWS,itcalldev,ap-northeast-2,kcpm,kcpm-dev-ec2-instance-db,개발,일반,Linux,m5.large,172.24.16.56,,50,DB
+134,AWS,itcalldev,ap-northeast-2,kcpm,kcpm-dev-ec2-instance-was,개발,일반,Linux,m5.large,172.24.16.226,,125,WEB/WAS
+135,AWS,itcalldev,ap-northeast-2,ipcc,ipcc-dev-daemon,개발,일반,Linux,m5.large,172.24.17.246,,75,APP

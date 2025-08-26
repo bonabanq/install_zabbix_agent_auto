@@ -62,3 +62,11 @@ cp /etc/yum.repos.d/CentOS-Base.repo /etc/yum.repos.d/CentOS-Base.repo.old
 sudo sed -i 's|^mirrorlist=|#mirrorlist=|g' /etc/yum.repos.d/CentOS-Base.repo
 sudo sed -i 's|^#baseurl=http://mirror.centos.org/centos/\$releasever|baseurl=http://vault.centos.org/7.9.2009|g' /etc/yum.repos.d/CentOS-Base.repo
 ```
+
+
+---
+
+zabbix host 추가 실행코드
+```
+python3 zbx_agent_import.py -u https://<zabbix-domain>/api_jsonrpc.php -t <token> -f add_host.csv --insecure
+```
